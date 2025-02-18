@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --background: #2C3930;
+  --foreground: #171717;
+
+} */
+
+@font-face {
+  font-family: "VCR_OSD_MONO_1";
+  src: url("../fonts/VCR_OSD_MONO_1.001.ttf") format('truetype');
+ 
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #2C3930;
+    --foreground: #ededed;
+    
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'VCR_OSD_MONO_1';
+}
+
