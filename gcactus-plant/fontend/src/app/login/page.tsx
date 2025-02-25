@@ -32,7 +32,7 @@ export default function Login() {
   };
 
   return (
-    <div className="h-full w-full relative">
+    <div className="min-h-screen w-full relative bg-[#2C3930]">
       <div className="flex flex-col justify-center items-center px-6 py-8 mx-auto h-full">
         <div className="relative w-full rounded-3xl shadow border border-border md:mt-0 sm:max-w-md xl:p-0 bg-[#DCD7C9]">
           <div className="flex flex-col justify-center items-center">
